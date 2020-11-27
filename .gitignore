@@ -1,0 +1,37 @@
+# dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+.next/
+out/
+
+# production
+build/
+
+# misc
+.DS_Store
+
+# debug
+npm-debug.log*
+
+# local env files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+
+# JetBrains IDE
+.idea/
+
+electron/app/background.js.map
+
+app/_next/static/chunks/
+*_next*
+*dist/*
+
+app/

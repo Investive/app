@@ -1,0 +1,12 @@
+appId: co.investive.app
+productName: Investive
+copyright: Copyright © 2020 Investive
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null

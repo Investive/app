@@ -1,0 +1,48 @@
+{
+  "private": true,
+  "name": "investive",
+  "description": "Simplified Trading for Canadians",
+  "version": "0.9.0",
+  "author": "Investive <support@investive.co>",
+  "main": "app/background.js",
+  "scripts": {
+    "dev": "nextron",
+    "build": "nextron build",
+    "build:all": "nextron build --all",
+    "build:win32": "nextron build --win --ia32",
+    "build:win64": "nextron build --win --x64",
+    "build:mac": "nextron build --mac --x64",
+    "build:linux": "nextron build --linux",
+    "postinstall": "electron-builder install-app-deps",
+    "nextjs": "next build"
+  },
+  "dependencies": {
+    "electron-serve": "^1.0.0",
+    "electron-store": "^6.0.1",
+    "keytar": "^7.0.0",
+    "yahoo-stocks": "^2.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@material-ui/styles": "^4.10.0",
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.19.2",
+    "babel-loader": "^8.1.0",
+    "clsx": "^1.1.1",
+    "dotenv": "^8.2.0",
+    "electron": "^10.1.5",
+    "electron-builder": "^22.9.1",
+    "lightweight-charts": "^3.1.5",
+    "next": "9.5.1",
+    "nextron": "^5.15.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-hook-form": "^5.7.2",
+    "typeface-roboto": "^0.0.75",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.44.2"
+  }
+}

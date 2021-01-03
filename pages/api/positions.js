@@ -281,7 +281,7 @@ export default async (req, res) => {
                 market_book_value_currency: 'USD',
                 quote: {
                   object: 'spot_quote',
-                  security_id: 'sec-s-50cdacc9811f407c8dff52e15be08582',
+                  security_id: 'sec-s-a77',
                   amount: '1025.0500',
                   currency: 'USD',
                   ask: '1025.1300',
